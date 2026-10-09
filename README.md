@@ -8,7 +8,7 @@ Do passing stats predict how efficiently CMU hits in a match?
 - **Model:** linear regression (scikit-learn), evaluated with a held-out test set and 5-fold cross-validation
 
 ## Key Findings
-1. **R2 from a single split was misleading.** After removing leakage, one 80/20 split gave R² = 0.15, but 5-fold cross-validation gave an average R² of −0.04 (± 0.15).
+1. **R2 from a single split was misleading.** One 80/20 split gave R² = 0.15, but 5-fold cross-validation gave an average R² of −0.04 (± 0.15).
 3. **Conclusion:** With one season (36 matches), passing and defense stats alone don't reliably predict match hitting efficiency.
 
 ## Next Steps
