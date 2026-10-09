@@ -1,7 +1,7 @@
 # cmu-volleyball-ml
-A linear regression project using Carnegie Mellon University women's volleyball match data from the 2025–26 season ([CMU Athletics game log](https://athletics.cmu.edu/sports/wvball/2025-26/teams/carnegiemellon?view=gamelog)).
+A linear regression project using Carnegie Mellon University women's volleyball match data from the 2025-26 season ([CMU Athletics game log](https://athletics.cmu.edu/sports/wvball/2025-26/teams/carnegiemellon?view=gamelog)).
 
-**Question:** Do passing stats predict how efficiently CMU hits in a match?
+Do passing stats predict how efficiently CMU hits in a match?
 
 - **Target:** team hitting percentage per match
 - **Features:** reception errors, receptions, and digs, normalized per set so 3-set and 5-set matches are comparable
